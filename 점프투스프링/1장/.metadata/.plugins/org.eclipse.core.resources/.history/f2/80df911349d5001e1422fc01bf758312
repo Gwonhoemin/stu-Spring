@@ -1,0 +1,18 @@
+package com.mysite.sbb;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class HelloLombok {
+	private String Helllo;
+	private int lombok;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HelloLombok helloLombok = new HelloLombok();
+		helloLombok.setHello("헬로");
+		
+	}
+
+}
